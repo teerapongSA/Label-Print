@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Interop.LabelManager2">
+      <HintPath>D:\Interop.LabelManager2.dll</HintPath>
+    </Reference>
+    <Reference Include="mSimplePrintLabel">
+      <HintPath>D:\mSimplePrintLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="SATOPrinterAPI">
+      <HintPath>D:\SATOPrinterAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
